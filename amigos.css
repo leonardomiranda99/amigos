@@ -5,14 +5,56 @@ h1 {
     text-align: center;
     
 }
-img{
-    width: 100%;
-}
-
 .encabezado{
     font-family:'Times New Roman', Times, serif;
+    font-size: 500%;
 }
-img{
-    width: 150px;
-    height: 150px;
+.contenedorinput{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputnombre{
+    background-color: rgb(15, 47, 95);
+    color:aliceblue;
+}
+.inputnombre::placeholder{
+    color: aliceblue;
+}
+.contenedorfotos{
+    text-align: center;
+}
+.gerafoto{
+    width: 25.7%;
+    height: 20%;
+    margin: 1%;
+}
+.danifoto{
+    width: 16%;
+    height: 30%;
+    margin: 1%;
+}
+.yulifoto{
+    width: 17.12%;
+    height: 5%;
+    margin: 1%;
+}
+.farcyfoto{
+    width: 25.72%;
+    height: 15%;
+    margin: 1%;
+}
+.leofoto{
+    width: 25%;
+    margin: 1%;
+}
+.angelfoto{
+    width: 24.7%;
+    margin: 1%;
+}
+.alefoto{
+    width: 24.7%;
+    margin: 1%;
 }
